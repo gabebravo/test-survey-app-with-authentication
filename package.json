@@ -1,0 +1,30 @@
+{
+  "name": "node-final",
+  "version": "1.0.0",
+  "description": "node final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "eslint": "eslint *.js",
+    "dev": "nodemon index"
+  },
+  "author": "Gabe Bravo <gabecbravo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.0",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.4",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-x2": "^2.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
