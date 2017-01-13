@@ -4,6 +4,9 @@ const router  =  new express.Router();
 const db   = require('../lib/db');
 const Event = db.mongoose.model('Event');
 
+const jwt = require('jsonwebtoken');
+const SECRET = process.env.JWT_SECRET;
+
 function getEvents(req, res) {
 
   Event.find( ( err, events ) => {
